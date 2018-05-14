@@ -6,6 +6,7 @@
         public string Title { get; set; }
         public string Isbn { get; set; }
         public string Synopsis { get; set; }
+        public string Description { get; set; }
         public string ImageUrl { get; set; }
         public decimal ListPrice { get; set; }
         public decimal SalePrice { get; set; }
