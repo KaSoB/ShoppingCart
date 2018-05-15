@@ -10,7 +10,8 @@ namespace ShoppingCart {
                     "~/Scripts/jquery.us.js",
                     "~/Scripts/bootstrap.js",
                     "~/Scripts/respond.js",
-                    "~/Scripts/knockut-{version}.js"
+                    "~/Scripts/knockut.custom.js",
+                    "~/Scripts/ViewModels/CartSummaryViewModel.js"
                 ));
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                     "~/Scripts/modernizr-*"
