@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 
 namespace ShoppingCart.DAL {
-    public class DataInitialization : DropCreateDatabaseIfModelChanges<ShoppingCartContext> {
+    public class DataInitialization : DropCreateDatabaseAlways<ShoppingCartContext> {
         protected override void Seed(ShoppingCartContext context) {
             var categories = new List<Category>
             {
