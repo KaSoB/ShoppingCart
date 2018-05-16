@@ -20,6 +20,15 @@ namespace ShoppingCart.Controllers {
             return PartialView(AutoMapper.Mapper.Map<Cart, CartViewModel>(cart));
         }
 
+        // GET: Carts
+        public ActionResult Index() {
+            var cart = _cartService.GetBySessionId(HttpContext.Session.SessionID);
+
+            return View(
+                AutoMapper.Mapper.Map<Cart, CartViewModel>(cart)
+            );
+        }
+
         protected override void Dispose(bool disposing) {
             if (disposing) {
                 _cartService.Dispose();

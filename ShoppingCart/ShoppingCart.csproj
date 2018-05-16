@@ -235,6 +235,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ViewModels\BookDetailViewModel.js" />
+    <Content Include="Scripts\ViewModels\CartDetailViewModel.js" />
     <Content Include="Scripts\ViewModels\CartItemViewModel.js" />
     <Content Include="Scripts\ViewModels\CartSummaryViewModel.js" />
     <Content Include="Web.config" />
@@ -258,6 +259,7 @@
     <Content Include="Views\Books\Index.cshtml" />
     <Content Include="Views\Books\Details.cshtml" />
     <Content Include="Views\Shared\_CartItemForm.cshtml" />
+    <Content Include="Views\Carts\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
