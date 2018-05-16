@@ -5,13 +5,14 @@ namespace ShoppingCart {
 
         public static void RegisterBundles(BundleCollection bundles) {
             bundles.Add(new ScriptBundle("~/bundles/shoppingCart").Include(
-                    "~/Scripts/jquery-{version}.js",
-                    "~/Scripts/jquery.validate*",
-                    "~/Scripts/jquery.us.js",
-                    "~/Scripts/bootstrap.js",
-                    "~/Scripts/respond.js",
-                    "~/Scripts/knockut.custom.js",
-                    "~/Scripts/ViewModels/CartSummaryViewModel.js"
+                     "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/jquery.validate*",
+                        "~/Scripts/jquery-ui.js",
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/respond.js",
+                        "~/Scripts/knockout-{version}.js",
+                        "~/Scripts/knockout.custom.js",
+                        "~/Scripts/ViewModels/CartSummaryViewModel.js"
                 ));
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                     "~/Scripts/modernizr-*"
