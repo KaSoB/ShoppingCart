@@ -20,6 +20,12 @@ namespace ShoppingCart.Controllers {
             AutoMapper.Mapper.Map<List<Book>, List<BookViewModel>>(books)
             );
         }
+        public ActionResult Details(int id) {
+            var book = _bookService.GetById(id);
+            return View(
+            AutoMapper.Mapper.Map<Book, BookViewModel>(book)
+            );
+        }
         [ChildActionOnly]
         public PartialViewResult Featured() {
             var books = _bookService.GetFeatured();

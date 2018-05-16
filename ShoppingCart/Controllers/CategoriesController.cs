@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 
 namespace ShoppingCart.Controllers {
-    public class CategoryController : Controller {
+    public class CategoriesController : Controller {
         private readonly CategoryService _categoryService = new CategoryService();
 
         [ChildActionOnly]

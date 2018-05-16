@@ -163,7 +163,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\CartsController.cs" />
-    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\DataInitialization.cs" />
     <Compile Include="DAL\ShoppingCartContext.cs" />
@@ -220,6 +220,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\ViewModels\BookDetailViewModel.js" />
+    <Content Include="Scripts\ViewModels\CartItemViewModel.js" />
     <Content Include="Scripts\ViewModels\CartSummaryViewModel.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -240,6 +242,8 @@
     <Content Include="Views\Books\Featured.cshtml" />
     <Content Include="Views\Books\_List.cshtml" />
     <Content Include="Views\Books\Index.cshtml" />
+    <Content Include="Views\Books\Details.cshtml" />
+    <Content Include="Views\Shared\_CartItemForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
